@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PODCASTS>
+	<AUDIO>
+		<ID>49</ID>
+		<TITLE>A boa parte não pode ser roubada!</TITLE>
+		<DATE>05/12/2015</DATE>
+    <EPISODE>Semana 49</EPISODE>
+    <FILE>http://www.allegro.philharmonic.me.uk/hello-muddah-sample.mp3</FILE>
+    <URL>img/adam.jpg</URL>
+	</AUDIO>
+	<AUDIO>
+		<ID>48</ID>
+		<TITLE>Escolhendo o lado bom da vida!</TITLE>
+		<DATE>28/11/2015</DATE>
+    <EPISODE>Semana 48</EPISODE>
+    <FILE>http://www.diyacapellas.com/assets/clips/T.I%20-%20Hello%20Acapella%20SAMPLE%20DIYACAPELLAS.mp3</FILE>
+    <URL>img/ben.png</URL>
+	</AUDIO>
+	<AUDIO>
+		<ID>47</ID>
+		<TITLE>Identificando a melhor parte da vida!</TITLE>
+		<DATE>15/11/2015</DATE>
+    <EPISODE>Semana 47</EPISODE>
+    <FILE>http://www.tnttheband.com/audio/sample_atlantis_hello.mp3</FILE>
+    <URL>img/max.png</URL>
+	</AUDIO>
+  <AUDIO>
+		<ID>46</ID>
+		<TITLE>Conserve o que é mais importante.</TITLE>
+		<DATE>07/11/2015</DATE>
+    <EPISODE>Semana 46</EPISODE>
+    <FILE>http://www.allegro.philharmonic.me.uk/hello-muddah-sample.mp3</FILE>
+    <URL>img/mike.png</URL>
+	</AUDIO>
+  <AUDIO>
+		<ID>45</ID>
+    <TITLE>Não seja tolerante com o mal!</TITLE>
+    <DATE>24/10/2015</DATE>
+    <EPISODE>Semana 45</EPISODE>
+    <FILE>http://www.allegro.philharmonic.me.uk/hello-muddah-sample.mp3</FILE>
+    <URL>img/perry.png</URL>
+  </AUDIO>
+</PODCASTS>
