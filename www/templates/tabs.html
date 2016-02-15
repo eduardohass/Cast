@@ -6,12 +6,12 @@ navigation history that also transitions its views in and out.
 <ion-tabs class="tabs-striped tabs-top tabs-background-assertive tabs-color-light">
 
   <!-- Dashboard Tab -->
-  <ion-tab title="Dashboard" icon-off="ion-ios-pulse" icon-on="ion-ios-pulse-strong" href="#/tab/dash">
+  <ion-tab title="Status" icon-off="ion-ios-pulse" icon-on="ion-ios-pulse-strong" href="#/tab/dash">
     <ion-nav-view name="tab-dash"></ion-nav-view>
   </ion-tab>
 
   <!-- Chats Tab -->
-  <ion-tab title="Audio" icon-off="ion-ios-chatboxes-outline" icon-on="ion-ios-chatboxes" href="#/tab/chats">
+  <ion-tab title="Chats" icon-off="ion-ios-chatboxes-outline" icon-on="ion-ios-chatboxes" href="#/tab/chats">
     <ion-nav-view name="tab-chats"></ion-nav-view>
   </ion-tab>
 
@@ -20,10 +20,16 @@ navigation history that also transitions its views in and out.
     <ion-nav-view name="tab-account"></ion-nav-view>
   </ion-tab>
 
+  <!-- Audio Tab -->
+  <ion-tab title="Audio" icon-off="ion-ios-play-outline" icon-on="ion-ios-play" href="#/tab/audio">
+    <ion-nav-view name="tab-audio"></ion-nav-view>
+  </ion-tab>
+
 
 </ion-tabs>
+
 <div class="bar bar-footer bar-dark" style="height: 50px;">
   <div class="title">
-    <audio audioplayer controls id="player" style="height: 40px;" src="{{tst}}"></audio>
+    <audio audioplayer controls id="player" style="height: 40px;" src="http://www.tnttheband.com/audio/sample_atlantis_hello.mp3"></audio>
   </div>
 </div>

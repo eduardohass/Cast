@@ -1,22 +1,16 @@
 <ion-view view-title="Chats">
   <ion-content>
     <ion-list>
-      <ion-item class="item-remove-animate item-avatar" ng-repeat="chat in chats" type="item-text-wrap">
-
-        <img ng-src="{{chat.face}}" ng-click="setAudio({{chat.id}})">
+      <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="chat in chats" type="item-text-wrap" href="#/tab/chats/{{chat.id}}">
+        <img ng-src="{{chat.face}}">
         <h2>{{chat.name}}</h2>
         <p>{{chat.lastText}}</p>
+        <i class="icon ion-chevron-right icon-accessory"></i>
 
-        <br />
-        <!-- <audio ng-src="{{chat.source}}" audioplayer controls id="player"></audio> -->
-        <!-- <audio controls="controls" id="player">
-          <source src="http://www.stephaniequinn.com/Music/Allegro%20from%20Duet%20in%20C%20Major.mp3" type="audio/mp3" /> seu navegador não suporta HTML5
-        </audio> -->
+        <ion-option-button class="button-assertive" ng-click="remove(chat)">
+          Delete
+        </ion-option-button>
       </ion-item>
     </ion-list>
-
-
-
-
   </ion-content>
 </ion-view>
